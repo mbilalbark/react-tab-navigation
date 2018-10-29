@@ -25,9 +25,9 @@ const RootStack = createBottomTabNavigator({
       const { routeName } = navigation.state;
       let iconName;
       if (routeName === 'Home') {
-        iconName = `home${focused ? '' : 'home'}`;
+        iconName = 'home';
       } else if (routeName === 'Profile') {
-        iconName = `user${focused ? '' : 'user-alt'}`;
+        iconName = 'face';
       }
 
       // You can return any component that you like here! We usually use an
