@@ -25,10 +25,10 @@ const styles = StyleSheet.create({
       marginBottom:10,
       alignSelf:'center',
       position: 'absolute',
-      marginTop:100
     },
     body:{
-      marginTop:130,
+      marginTop:150,
+      marginLeft:30
     },
     name:{
       fontSize:28,
